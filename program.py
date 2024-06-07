@@ -119,6 +119,7 @@ if st.session_state.get("vector_store_ready", False):
 
             # Google Search
                 st.write("### For More info, Take a look in these link")
+                print(f"Question: {new_question}, Number of results: {num_results}")
                 google_results = list(search(new_question, num_results=4))
                 for result in google_results:
                     st.write(result)
