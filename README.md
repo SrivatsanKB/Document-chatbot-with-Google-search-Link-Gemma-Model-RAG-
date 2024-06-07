@@ -4,7 +4,7 @@ Welcome to the Gemma Model Document Question & Answer (Q&A) application! This St
 
 ### How to Use:
 
-1. **Upload PDF Files**: Start by uploading at least two PDF files containing the documents you want to explore.
+1. **Upload PDF Files**: Start by uploading any number of PDF files containing the documents you want to explore.
 
 2. **Embedding Documents**: Click the "Documents Embedding" button to process the uploaded PDF files. This step involves splitting the documents into smaller chunks, generating embeddings using the Google Generative AI, and creating a vector store for efficient retrieval.
 
@@ -48,11 +48,7 @@ The Gemma Model is a state-of-the-art language model designed for document under
 
 ### Contributors:
 
-- [Your Name or Organization]
-
-### License:
-
-[Specify the license, if any]
+- Srivatsan (Owner)
 
 ### Feedback:
 
